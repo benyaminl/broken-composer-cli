@@ -1,0 +1,15 @@
+{
+    "require": {
+        "symfony/console": "6.2.3",
+        "composer/composer": "2.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "contoh" : "App\\Contoh",
+        "try" : "App\\TryCommand::try"
+    }
+}
